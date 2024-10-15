@@ -9,7 +9,9 @@ This code is by no means production ready, but should give a hint about how the 
 ## Prerequisites
 
 - Python 3.x installed on your system, this script was tested with 3.12
-- Ensure you have the necessary dependencies installed. You can install them via pip using `pip -r requirements.txt`.
+- Install python virtual environment using `sudo apt install python3.12-venv`.
+- Create an environment in the folder of an example using `python3 -m venv .venv`. Then activate the env using `source .venv/bin/activate`.
+- Ensure you have the necessary dependencies installed. You can install them via pip using `pip install -r requirements.txt`.
 - FFMPEG or another way of generating audio frames (must include a container).
 
 ## Setup
